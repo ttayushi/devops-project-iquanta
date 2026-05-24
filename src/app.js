@@ -1,3 +1,14 @@
+const promClient = require('prom-client');
+
+// Metrics collect karo
+const collectDefaultMetrics = promClient.collectDefaultMetrics;
+collectDefaultMetrics();
+
+// Metrics endpoint
+app.get('/metrics', async (req, res) => {
+    res.set('Content-Type', promClient.register.contentType);
+    res.end(await promClient.register.metrics());
+});
 const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
