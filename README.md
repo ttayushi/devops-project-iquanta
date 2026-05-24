@@ -3,7 +3,7 @@
 ## Live URLs
 - Application: http://13.206.248.150:3000
 - Prometheus: http://13.206.248.150:9090
-- Grafana: http://13.206.248.150:3000
+- Grafana: http://13.206.248.150:3001
 
 ## Architecture
 Node.js App → Docker → AWS EC2 → MongoDB
