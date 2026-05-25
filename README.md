@@ -42,3 +42,33 @@ Push to main → Tests run → Docker build → Deploy
 2. npm install
 3. Configure .env
 4. docker-compose up --build
+
+
+## Screenshots
+
+### Application Running
+![Application](screenshots/app-running.png)
+
+### Grafana Dashboard
+![Grafana](screenshots/grafana-dashboard.png)
+
+### Prometheus Targets
+![Prometheus](screenshots/prometheus-targets.png)
+
+### CI/CD Pipeline
+![CI/CD](screenshots/cicd-pipeline.png)
+
+### Alert Rules
+![Alerts](screenshots/alert-rules.png)
+
+### CPU Alert
+![CPU](screenshots/CPU%20Firing%20screenshot.png)
+
+### Memory Alert
+![Memory](screenshots/Memory%20Firing%20screenshot%20.png)
+
+### Disk Alert
+![Disk](screenshots/Disk%20Firing%20screenshot.png)
+
+### App Down Alert
+![App Down](screenshots/App%20Down%20Firing%20screenshot.png)
